@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Gorakhnath Nigam — Portfolio</title>
+  <meta name="description" content="I turn messy data into reliable, revenue‑driving products—ML, LLMs, and analytics engineering."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="bg"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+
+  <header class="hero">
+    <div class="container hero-inner">
+      <div class="hero-grid">
+        <div class="intro">
+          <div class="badge">Open to Opportunities</div>
+          <h1><span>Gorakhnath Nigam</span></h1>
+          <p class="role">Senior Data Scientist</p>
+          <p class="tagline">I turn messy data into reliable, revenue‑driving products—ML, LLMs, and analytics engineering.</p>
+          <ul class="hero-cta">
+            <li><a class="btn primary" href="#experience">View Experience</a></li>
+            <li><a class="btn ghost" href="assets/Gorakhnath_Nigam_Resume.pdf" download>Download Resume</a></li>
+          </ul>
+          <ul class="quick-links">
+            <li>📍 <a href="mailto:jighrt16@gmail.com"> Miami, USA<a></li>
+            <li>✉ <a href="mailto:jighrt16@gmail.com">jighrt16@gmail.com</a></li>
+            <li>☎ <a href="tel:+13058894767">+1 (305) 889‑4767</a></li>
+            <li>💼 <a href="https://www.linkedin.com/in/gorakhnigam24" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li>🤖 <a href="https://github.com/gorakhnigam24" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+        <div class="photo-wrap">
+          <img src="assets/profile.jpg" alt="Profile photo" class="photo"/>
+          <!-- <p class="photo-hint">Replace <code>assets/profile.jpg</code> with your photo.</p> -->
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator"></div>
+  </header>
+
+  <!-- Tabs-like sticky nav -->
+  <nav class="topnav tabs">
+    <div class="container">
+      <a class="tab" href="#about">About</a>
+      <a class="tab" href="#experience">Experience</a>
+      <a class="tab" href="#projects">Projects</a>
+      <a class="tab" href="#skills">Skills</a>
+      <a class="tab" href="#education">Education</a>
+      <a class="tab" href="#awards">Awards</a>
+      <a class="tab" href="#publications">Publications</a>
+      <a class="tab" href="#certs">Certifications</a>
+      <a class="tab" href="#contact">Contact</a>
+      <span class="tab-indicator" style="--i:0"></span>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about" class="section container reveal">
+      <h2>About</h2>
+      <p class="lead">Data Scientist with 6+ years in financial services delivering ML/AI systems, large‑scale analytics, and governance‑aligned workflows—regulatory NLP (RAG/LLMs), PPNR forecasting, fraud detection at scale, and analytics engineering on Databricks/Delta Lake.</p>
+    </section>
+
+    <!-- EXPERIENCE ABOVE PROJECTS -->
+    <section id="experience" class="section container reveal">
+      <h2>Experience</h2>
+
+      <article class="exp glass">
+        <header>
+          <h3>Data Scientist — BA Continuum (Bank of America)</h3>
+          <span>Jul 2020 – Jan 2025 • Gurugram, India</span>
+        </header>
+        <ul>
+          <li>RAG‑Enhanced Regulatory Compliance Summarization — Summarized SR 11‑7 & OCC 2011‑12 into actionable guidance; −60% review time, +50% analyst productivity. Ingestion (BeautifulSoup, PyPDF2, spaCy) + RAG with Azure Cognitive Search + fine‑tuned GPT‑3.5 (Azure OpenAI); validated with ROUGE/BLEU & SME review; deployed on AKS with CI/CD and Vault‑secured APIs into GRC/MRM tools.</li><li>PPNR Forecasting — PCA + time series + regression; improved forecast accuracy and reduced stress‑testing cycle time by ~30%, safeguarding >$50M annual revenue.</li><li>Fraud Detection @ Scale — 11M+ monthly txns; Isolation Forest + clustering + rules. Governance with PSI, AUROC, FDR, PDP, Lift; lineage & RCA ~20GB/month/provider; SAS OOT validation. Tableau dashboards: +75% efficiency, −80% evaluation time; prevented ~$95M potential losses.</li><li>UMR Trade Break Classification — XGBoost root‑cause; −40% remediation time; ~$500K annual operational savings.</li><li>Clustering Automation — K‑Means, Spectral, DBSCAN, GMM; −50% manual exploration; supported revenue strategies.</li><li>ELT on Delta Lake — Python, PySpark, SQL; automated ingestion → transform → delivery for revenue/risk analytics; −70% EDA turnaround.</li>
+        </ul>
+      </article>
+
+      <article class="exp glass">
+        <header>
+          <h3>Data Scientist — Virtusa</h3>
+          <span>Jun 2018 – Jul 2020 • Hyderabad, India</span>
+        </header>
+        <ul>
+          <li>Synthetic Data Generation — Metadata‑driven with SMOTE; hypothesis tests for population similarity; AWS EC2 + storage; −40% provisioning time.</li><li>Data Anonymization — Perturbation/generalization for PII; GDPR/CCPA compliance; reduced breach risk.</li><li>Segmentation & Recommendations — Hierarchical clustering + XGBoost/collab filtering; ~$2M incremental annual revenue.</li><li>Invoice OCR — Google Cloud Vision API + Python regex; −60% manual effort (~$100K/yr savings).</li><li>Live Tweet Sentiment — NLTK + streaming; +15% engagement; influenced >$1M product revenue.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects" class="section container reveal">
+      <h2>Projects</h2>
+      <div class="grid">
+        
+        <article class="card glass">
+          <div class="card-head">
+            <div class="ring"></div>
+            <h3>Unified Customer Metrics</h3>
+          </div>
+          <p>dbt + Databricks ELT powering self‑serve KPIs and dashboards.</p>
+          <div class="tags">dbt, Databricks, SQL</div>
+        </article>
+        <article class="card glass">
+          <div class="card-head">
+            <div class="ring"></div>
+            <h3>RAG Compliance Summaries</h3>
+          </div>
+          <p>RAG + GPT with citation‑linked outputs and audit trails.</p>
+          <div class="tags">RAG, Azure OpenAI, FastAPI</div>
+        </article>
+        <article class="card glass">
+          <div class="card-head">
+            <div class="ring"></div>
+            <h3>Experiment Analytics</h3>
+          </div>
+          <p>A/B testing framework with CUPED and meta‑analysis.</p>
+          <div class="tags">Python, Statsmodels, Tableau</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container reveal">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class='skill glass'><h4>Machine Learning</h4><p>Regression, Ensemble, Clustering, Classification, PCA, LDA, QDA, t‑SNE</p></div><div class='skill glass'><h4>Deep Learning</h4><p>ANN, CNN, RNN, LSTM, GRU, Encoders</p></div><div class='skill glass'><h4>LLMs / GenAI</h4><p>OpenAI GPT, LangChain, LangGraph, RAG, LIME, SHAP, Langfuse</p></div><div class='skill glass'><h4>Time Series</h4><p>ARIMA, SARIMA, GARCH, ARCH, Copula, MCMC</p></div><div class='skill glass'><h4>Languages & Frameworks</h4><p>Python, R, SAS Enterprise, MySQL, Django, PySpark, Hadoop</p></div><div class='skill glass'><h4>Cloud & Data</h4><p>AWS SageMaker, GCP, IBM Cloud, Azure, Delta Lake, Databricks, Git</p></div><div class='skill glass'><h4>Modeling & Analytics</h4><p>Dimensional Modeling, A/B Testing, Cohort Analysis, Growth Metrics</p></div><div class='skill glass'><h4>Libraries</h4><p>Pandas, NumPy, Matplotlib, Seaborn, scikit‑learn, TensorFlow, PyTorch</p></div><div class='skill glass'><h4>Visualization</h4><p>Tableau, Power BI, Dash‑Plotly, Streamlit</p></div>
+      </div>
+    </section>
+
+    <section id="education" class="section container reveal">
+      <h2>Education</h2>
+      <div class="edu">
+        <div class='edu-item glass'><h4>MS, Data Science</h4><p>University of Miami</p><p><em>Jan 2025 – Present • Miami, USA</em> • GPA 4.0/4.0</p></div><div class='edu-item glass'><h4>B.Tech, Civil Engineering</h4><p>IIT Guwahati</p><p><em>Jul 2014 – May 2018 • Guwahati, India</em> • CPI 7.40/10</p></div>
+      </div>
+    </section>
+
+    <section id="awards" class="section container reveal">
+      <h2>Awards</h2>
+      <ul class="bullets">
+        <li>Regional Mathematics Olympiad (RMO): 19th in UP region; selected for INMO.</li><li>International Young Mathematician Convention (IYMC): Silver and Bronze medals.</li>
+      </ul>
+    </section>
+
+    <section id="publications" class="section container reveal">
+      <h2>Publications</h2>
+      <ul class="bullets">
+        <li><strong>Quantifying Porosity</strong> — American Geophysical Union, Fall Meeting 2019 — <a href="https://ui.adsabs.harvard.edu/abs/2019AGUFMMR" target="_blank" rel="noopener">https://ui.adsabs.harvard.edu/abs/2019AGUFMMR</a> <em>(Abstract ID: MR21C‑0082P)</em></li>
+      </ul>
+    </section>
+
+    <section id="certs" class="section container reveal">
+      <h2>Certifications</h2>
+      <!--<p class="cert-note">Add your certificate images into <code>assets/certs/</code>. Two per row, auto‑scaled for a clean look.</p> -->
+      <div class="cert-grid">
+        
+        <figure class="cert-card glass">
+          <img src="assets/certs/cert1.jpg" alt="IBM Data Science Practitioner — IBM (Jun 2025)" loading="lazy"/>
+          <figcaption>IBM Data Science Practitioner — IBM (Jun 2025)</figcaption>
+        </figure>
+        <figure class="cert-card glass">
+          <img src="assets/certs/cert2.jpg" alt="Fundamentals of Statistics — MITx, edX (May 2024)" loading="lazy"/>
+          <figcaption>Fundamentals of Statistics — MITx, edX (May 2024)</figcaption>
+        </figure>
+        <figure class="cert-card glass">
+          <img src="assets/certs/cert3.jpg" alt="Probability: The Science of Uncertainty and Data — MITx, edX (Aug 2023)" loading="lazy"/>
+          <figcaption>Probability: The Science of Uncertainty and Data — MITx, edX (Aug 2023)</figcaption>
+        </figure>
+        <figure class="cert-card glass">
+          <img src="assets/certs/cert4.jpg" alt="Machine Learning with Python — MITx, edX (May 2023)" loading="lazy"/>
+          <figcaption>Machine Learning with Python — MITx, edX (May 2023)</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="section container reveal">
+      <h2>Contact</h2>
+      <p>Say hi at <a href="mailto:jighrt16@gmail.com">jighrt16@gmail.com</a> or connect on <a href="https://www.linkedin.com/in/gorakhnigam24" target="_blank" rel="noopener">LinkedIn</a>.</p>
+      <form class="contact-form" name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <label>Name <input name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Message <textarea name="message" rows="5" required></textarea></label>
+        <button class="btn primary" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Gorakhnath Nigam — Built with care.</p>
+      <a class="top" href="#">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
