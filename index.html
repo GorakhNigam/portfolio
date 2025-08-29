@@ -75,7 +75,65 @@
           <span>Jul 2020 – Jan 2025 • Gurugram, India</span>
         </header>
         <ul>
-          <li>RAG‑Enhanced Regulatory Compliance Summarization — Summarized SR 11‑7 & OCC 2011‑12 into actionable guidance; −60% review time, +50% analyst productivity. Ingestion (BeautifulSoup, PyPDF2, spaCy) + RAG with Azure Cognitive Search + fine‑tuned GPT‑3.5 (Azure OpenAI); validated with ROUGE/BLEU & SME review; deployed on AKS with CI/CD and Vault‑secured APIs into GRC/MRM tools.</li><li>PPNR Forecasting — PCA + time series + regression; improved forecast accuracy and reduced stress‑testing cycle time by ~30%, safeguarding >$50M annual revenue.</li><li>Fraud Detection @ Scale — 11M+ monthly txns; Isolation Forest + clustering + rules. Governance with PSI, AUROC, FDR, PDP, Lift; lineage & RCA ~20GB/month/provider; SAS OOT validation. Tableau dashboards: +75% efficiency, −80% evaluation time; prevented ~$95M potential losses.</li><li>UMR Trade Break Classification — XGBoost root‑cause; −40% remediation time; ~$500K annual operational savings.</li><li>Clustering Automation — K‑Means, Spectral, DBSCAN, GMM; −50% manual exploration; supported revenue strategies.</li><li>ELT on Delta Lake — Python, PySpark, SQL; automated ingestion → transform → delivery for revenue/risk analytics; −70% EDA turnaround.</li>
+          <li>
+              RAG-Enhanced Regulatory Compliance Summarization Platform:
+              Developed an AI solution to summarize complex regulations (e.g., SR 11-7,
+              OCC 2011-12) into actionable guidance for MRM teams, reducing review
+              time by 60% and improving analyst productivity ~50%. Built ingestion
+              pipelines (BeautifulSoup, PyPDF2, spaCy) and a RAG workflow using
+              Azure Cognitive Search with a fine-tuned GPT-3.5 model (Azure OpenAI)
+              to produce grounded, citation-linked summaries validated with ROUGE/BLEU
+              and SME review. Deployed on Azure Kubernetes Service (AKS) with CI/CD
+              and Vault–secured API integration into internal GRC/MRM tools.
+          </li>
+          <li>
+            Forecasting Model: Developed, revalidated, and monitored Pre-Provision Net
+            Revenue (PPNR) forecasting models using Principal Component Analysis
+            (PCA), Time Series Techniques and Regression models, enabling Lines of
+            Business to anticipate revenue risks and perform robust stress scenario
+            planning. This initiative contributed to safeguarding over $50 million in annual
+            revenue by improving forecasting accuracy and reducing stress-testing cycle
+            time by approximately 30%, enhancing the bank’s resilience to market volatility.
+          </li>
+          <li>
+            Fraud Detection: developed fraud detection frameworks on 11M+ monthly
+            transaction records, combining outlier analytics (Isolation Forest, clustering)
+            and rules-based logic, also led ongoing model governance, including monthover-
+            month tracking of performance metrics (PSI, AUROC, FDR, PDP, Lift
+            Chart, etc.) with data and validation controls and end-to-end data lineage
+            from upstream systems to fraud mitigation reporting, along with root cause
+            analysis of ~11 million transaction data points (20gb) per card provider
+            every month and regulatory validation using OOT samples using SAS. Proactive
+            monitoring and timely recommendation of model related fixes helped maintain
+            model compliance, translated these metrices into dashboards (Tableau),
+            delivering actionable insights on model performances, improving efficiency by
+            75% and also reducing operational error and evaluation time by 80%.
+            Preventing an estimated $95 million in potential regulatory losses operational
+            cost.
+          </li>
+          <li>
+            Classification Model: Built and deployed an XGBoost classification model to
+            predict the root causes of UMR trade breaks, significantly accelerating break
+            resolution. This reduced average remediation time by 40%, leading to an
+            estimated $500,000 annual reduction in operational costs through faster
+            handling and resolution of Initial Margin and Portfolio Reconciliation breaks
+            across the enterprise.
+          </li>
+          <li>
+            Clustering Model: Implemented automated clustering workflows using KMeans,
+            Spectral, DBSCAN, and Gaussian Mixture Models, optimizing cluster
+            selection through advanced ML techniques for diverse datasets. These insights
+            drove more informed business decisions, supporting revenue-generating
+            strategies and reducing manual data exploration time by 50%, through
+            enhanced analytics.
+          </li>
+          <li>
+            ETL Tool: Designed and built robust ELT pipelines in Python, PySpark, and
+            SQL on Delta Lake, automating ingestion, transformation, and delivery of core
+            business datasets used in revenue forecasting and risk analytics.. This
+            automation reduced EDA turnaround time by 70%, accelerating project delivery
+            across analytics teams.
+          </li>
         </ul>
       </article>
 
